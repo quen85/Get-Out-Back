@@ -1,0 +1,22 @@
+{
+  "name": "appli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.3",
+    "nodemon": "^1.14.12",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-local-mongoose": "^4.5.0",
+    "path": "^0.12.7"
+  }
+}
