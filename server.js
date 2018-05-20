@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
-let routes = require('./api/routes/EventRoutes');
+let routes = require('./api/routes/eventRoutes');
 let routesUser = require('./api/routes/userRoutes');
 routes(app);
 routesUser(app)
