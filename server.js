@@ -15,7 +15,7 @@ let userController = require('./api/controllers/userController')
 let bodyParser = require('body-parser')
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/Eventdb');
+mongoose.connect(`mongodb://qgiraud:${process.env.MongoPwd}@ds129540.mlab.com:29540/eventdb`);
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
